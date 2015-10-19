@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pixman_0_32_4", "pixman_0_32_4\pixman_0_32_4.vcxproj", "{99DEBA75-75B6-4578-B8D4-5A3FE15338B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cairo_1_12_16", "cairo_1_12_16\cairo_1_12_16.vcxproj", "{4E9953CA-2B45-4C54-943B-A4689660C7A8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{99DEBA75-75B6-4578-B8D4-5A3FE15338B1} = {99DEBA75-75B6-4578-B8D4-5A3FE15338B1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99DEBA75-75B6-4578-B8D4-5A3FE15338B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99DEBA75-75B6-4578-B8D4-5A3FE15338B1}.Debug|Win32.Build.0 = Debug|Win32
+		{99DEBA75-75B6-4578-B8D4-5A3FE15338B1}.Release|Win32.ActiveCfg = Release|Win32
+		{99DEBA75-75B6-4578-B8D4-5A3FE15338B1}.Release|Win32.Build.0 = Release|Win32
+		{4E9953CA-2B45-4C54-943B-A4689660C7A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E9953CA-2B45-4C54-943B-A4689660C7A8}.Debug|Win32.Build.0 = Debug|Win32
+		{4E9953CA-2B45-4C54-943B-A4689660C7A8}.Release|Win32.ActiveCfg = Release|Win32
+		{4E9953CA-2B45-4C54-943B-A4689660C7A8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
